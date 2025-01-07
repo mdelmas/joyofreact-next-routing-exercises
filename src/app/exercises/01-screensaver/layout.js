@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import './styles.css';
+import "./styles.css";
 
-function ScreenSaverLayout({ children }) {
+function ScreenSaverMenuLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
@@ -10,4 +10,4 @@ function ScreenSaverLayout({ children }) {
   );
 }
 
-export default ScreenSaverLayout;
+export default ScreenSaverMenuLayout;
